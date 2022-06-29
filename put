@@ -1,0 +1,2 @@
+#rsync -vrzl --delete * muriel@ec2-184-72-193-141.compute-1.amazonaws.com:public_html
+rsync -vrzl --delete --stats * muriel@ec2-184-72-193-141.compute-1.amazonaws.com:public_html/$*

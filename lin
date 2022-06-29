@@ -1,0 +1,3 @@
+cat lista | sed 's@.*/images@images@' | while read image; do
+   ln $image nanofotofest/
+done

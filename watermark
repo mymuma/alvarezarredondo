@@ -1,0 +1,8 @@
+  # convert photo.JPG  -font Arial -pointsize 20 \
+
+  texto="'   © Alvarez Arredondo'"
+  convert photo.JPG  -pointsize 20 \
+    -draw "gravity southwest \
+    fill black  text 0,12 $texto \
+    fill white  text 1,11 $texto " \
+    output.jpg

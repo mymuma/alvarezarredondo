@@ -1,0 +1,4 @@
+cd nanofotofest
+for f in *.jpeg ; do
+  echo "<a href='$f'><img src='$f'></a><br/><br/>"
+done > index.html
